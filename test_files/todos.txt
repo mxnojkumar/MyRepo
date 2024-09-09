@@ -3,5 +3,4 @@ Watch ANN tutorials
 try doing ML minis
 drink water
 have sleep
-eat well
 maintain health

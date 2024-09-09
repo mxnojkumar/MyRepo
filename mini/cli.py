@@ -1,4 +1,8 @@
 from functions import get_todos, write_todos
+import time
+
+now = time.strftime("%b %d, %Y %H:%M:%S ")
+print("It is ",now)
 
 while True:
     user_input = input("Type add, show, edit, complete or exit: ")
@@ -53,7 +57,7 @@ while True:
             todos.pop(index)
             
             write_todos(todos)
-            message = f"Todo {todo_to_remove} was removed from todos"
+            message = f"Todo '{todo_to_remove}' was removed from todos"
             print(message)
             
             
