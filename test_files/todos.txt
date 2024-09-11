@@ -1,6 +1,7 @@
-do leetcode course
-Watch ANN tutorials
-try doing ML minis
-drink water
-have sleep
-maintain health
+DSA + ANN
+Try doing ML minis
+Eat well
+Drink water
+Have sleep
+~Leetcode~
+(; Good night!
