@@ -35,12 +35,16 @@ while True:
     window["clock"].update(value=time.strftime("%b %d,%Y %H:%M:%S"))
     
     match event:
+        case sg.WIN_CLOSED:
+            break
+        
         case "Add":
             todos = functions.get_todos()
             new_todo = values["todo"] + '\n'
             todos.append(new_todo)
             functions.write_todos(todos)
             window["todos"].update(values=todos)
+            window["todo"].update(value='')
             
         case "Edit":
             try:
@@ -74,8 +78,5 @@ while True:
             
         case 'todos':
             window['todo'].update(value=values["todos"][0])
-            
-        case sg.WIN_CLOSED:
-            break
             
 window.close()

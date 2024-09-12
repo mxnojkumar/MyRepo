@@ -1,7 +1,0 @@
-DSA + ANN
-Try doing ML minis
-Eat well
-Drink water
-Have sleep
-~Leetcode~
-(; Good night!
