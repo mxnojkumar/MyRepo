@@ -1,5 +1,5 @@
-import streamlit as st
-from PIL import Image
+import streamlit as st # type: ignore
+from PIL import Image # type: ignore
 
 uploaded_image = st.file_uploader("Upload Image") 
 
